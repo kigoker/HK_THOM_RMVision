@@ -1,0 +1,14 @@
+path: .
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 10
+names: ['cat', 'chicken', 'cow', 'dog', 'fox', 'goat', 'horse', 'person', 'racoon', 'skunk']
+
+# roboflow:
+#   workspace: yolo-ccdgk
+#   project: test_3-qm1g6
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/yolo-ccdgk/test_3-qm1g6/dataset/3
